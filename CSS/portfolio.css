@@ -7,7 +7,7 @@ main button {
   background-color: white;
   border: 1px solid grey;
 }
-main button:hover {
+.przyciski button:hover {
   color: black;
   background-color: blue;
   border: 1px solid grey;
