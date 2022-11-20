@@ -2,3 +2,25 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: aliceblue;
 }
+body :focus {
+  outline: none;
+  background-color: blue;
+}
+main button {
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
+}
+.przycisk button:hover {
+  color: black;
+  background-color: blue;
+  border: 1px solid grey;
+}
+a:hover {
+  color: black;
+  background-color: blue;
+  border: 1px solid grey;
+}
+.przycisk {
+  cursor: pointer;
+}
