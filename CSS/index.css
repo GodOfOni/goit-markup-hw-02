@@ -1,26 +1,77 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: aliceblue;
+  background-color: #e5e5e5;
 }
-body :focus {
-  outline: none;
-  background-color: blue;
-}
-main button {
+.button {
   color: black;
   background-color: white;
   border: 1px solid grey;
-}
-.przycisk button:hover {
-  color: black;
-  background-color: blue;
-  border: 1px solid grey;
-}
-a:hover {
-  color: black;
-  background-color: blue;
-  border: 1px solid grey;
-}
-.przycisk {
   cursor: pointer;
+}
+.button:hover {
+  color: black;
+  background-color: #2196f3;
+  border: 1px solid grey;
+}
+.button:focus {
+  color: #2196f3;
+}
+.link:hover {
+  color: black;
+  background-color: #2196f3;
+  border: 1px solid grey;
+}
+.link:focus {
+  color: #2196f3;
+}
+.subtitle {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+}
+.text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+.navigation {
+  text-decoration: none;
+}
+.navigation:focus {
+  color: #2196f3;
+}
+.contact {
+  text-decoration: none;
+}
+.contact:focus {
+  color: #2196f3;
+}
+.list {
+  list-style-type: none;
+}
+.webstudio {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #2196f3;
+}
+.second-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+}
+.title {
+  color: #ffffff;
+  font-size: 44px;
+}
+.block {
+  background-color: #2f303a;
+  size: 0 80 1600 600;
+}
+.adress {
+  background-color: #2f303a;
+  size: 0 2097 1600 252;
 }
