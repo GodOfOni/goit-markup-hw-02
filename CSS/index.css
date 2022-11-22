@@ -53,6 +53,9 @@ body {
 .list {
   list-style-type: none;
 }
+.list:focus {
+  color: #2196f3;
+}
 .webstudio {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
