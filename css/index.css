@@ -2,27 +2,27 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
 }
-.button {
+.buttons {
   color: black;
   background-color: white;
   border: 1px solid grey;
   cursor: pointer;
   font-size: 16px;
 }
-.button:hover {
+.buttons:hover {
   color: black;
   background-color: #2196f3;
   border: 1px solid grey;
 }
-.button:focus {
+.buttons:focus {
   color: #2196f3;
 }
-.link:hover {
+.links:hover {
   color: black;
   background-color: #2196f3;
   border: 1px solid grey;
 }
-.link:focus {
+.links:focus {
   color: #2196f3;
 }
 .subtitle {
@@ -38,7 +38,7 @@ body {
   line-height: 1.7;
 }
 
-.link {
+.links {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.14;
@@ -57,10 +57,10 @@ body {
 .contact:focus {
   color: #2196f3;
 }
-.list {
+.list1 {
   list-style-type: none;
 }
-.list:focus {
+.list1:focus {
   color: #2196f3;
 }
 .webstudio {
