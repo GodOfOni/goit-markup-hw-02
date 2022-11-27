@@ -30,7 +30,7 @@ body {
 .bottom-mail:focus,
 .bottom-number:hover,
 .bottom-number:focus {
-  color: blue;
+  color: #2196f3;
   cursor: pointer;
 }
 .logo {
