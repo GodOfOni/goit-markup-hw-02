@@ -2,10 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: black;
   font-size: 14px;
+  font-style: normal;
+  width: 1600px;
 }
-
-.logo {
-  font-family: "Raleway", sans-serif;
+h3 {
+  font-weight: 700;
+  font-size: 14px;
 }
 .top-bar a {
   text-decoration: none;
@@ -13,13 +15,21 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.navigation,
+.contact,
+.list-filter-navigation {
+  display: inline-flex;
+}
 .top-bar .navigation a {
   color: black;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .contact a {
   color: #757575;
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
 }
 
 .navigation a:hover,
@@ -34,7 +44,7 @@ body {
   cursor: pointer;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -49,10 +59,14 @@ footer .logo {
 .bottom-adress {
   text-decoration: none;
   font-style: normal;
-  line-height: 1.7;
   letter-spacing: 0.03em;
   color: white;
   list-style: none;
+  font-size: 14px;
+  line-height: 1, 71;
+  padding-left: 215px;
+  padding-top: 111px;
+  display: inline-flex;
 }
 .bottom-number {
   text-decoration: none;
@@ -60,6 +74,8 @@ footer .logo {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff99;
+  font-size: 14px;
+  padding: 0 215px 0 215px;
 }
 .bottom-mail {
   text-decoration: none;
@@ -67,6 +83,11 @@ footer .logo {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff99;
+  font-size: 14px;
+  padding: 0 215px 0 215px;
+}
+.section-class {
+  padding: 0 215px 0 215px;
 }
 .order-button {
   font-weight: 700;
@@ -76,19 +97,23 @@ footer .logo {
   letter-spacing: 0.06em;
   color: white;
   background-color: #2196f3;
+  color: #fff;
+  padding: 10px 40px 10px 40px;
 }
 .order-button:hover,
 .order-button:focus {
   cursor: pointer;
 }
 .main-header {
+  color: #fff;
+  background-color: #2f303a;
+  height: 600px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1, 36em;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: white;
+  padding: 275px 0px 0px 0px;
 }
 .second-header {
   font-weight: 700;
@@ -156,4 +181,8 @@ footer .logo {
 }
 .list-filter {
   list-style: none;
+}
+.list-filter-in-line {
+  list-style: none;
+  display: inline-flex;
 }
