@@ -5,10 +5,7 @@ body {
   font-style: normal;
   width: 1600px;
 }
-h3 {
-  font-weight: 700;
-  font-size: 14px;
-}
+
 .top-bar a {
   text-decoration: none;
   font-weight: 500;
@@ -19,6 +16,10 @@ h3 {
 .contact,
 .list-filter-navigation {
   display: inline-flex;
+  letter-spacing: 0.02em;
+  padding-right: 120px;
+  padding-left: 20px;
+  padding-bottom: 27px;
 }
 .top-bar .navigation a {
   color: black;
@@ -75,7 +76,8 @@ footer .logo {
   letter-spacing: 0.03em;
   color: #ffffff99;
   font-size: 14px;
-  padding: 0 215px 0 215px;
+  padding-right: 30px;
+  padding-left: 20px;
 }
 .bottom-mail {
   text-decoration: none;
@@ -126,11 +128,17 @@ footer .logo {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
 }
 .business-description-paragraph {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
 }
 .employee-profile figcaption {
   font-weight: 500;
@@ -185,5 +193,18 @@ footer .logo {
 }
 .list-filter-in-line {
   list-style: none;
+  display: inline-flex;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.portfolio-buttons {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-right: 46px;
+  padding-bottom: 27px;
   display: inline-flex;
 }
