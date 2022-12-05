@@ -10,6 +10,11 @@
   --top-bar-line: #ececec;
   --portfolio-bottom-border: #eeeeee;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--black-color);
@@ -181,4 +186,27 @@ footer .logo {
   text-align: center;
   text-transform: uppercase;
   padding: 275px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-list .field-name {
+  text-align: start;
+  line-height: 1.88;
+  margin-top: 4px;
+}
+.portfolio-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+}
+.portfolio-list {
+  flex-wrap: wrap;
+}
+.portfolio-list {
+  padding: 20px 24px;
+  border-right: 1px solid var(--portfolio-bottom-border);
+  border-bottom: 1px solid var(--portfolio-bottom-border);
+  border-left: 1px solid var(--portfolio-bottom-border);
 }
