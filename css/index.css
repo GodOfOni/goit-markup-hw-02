@@ -4,8 +4,11 @@
   --gray-color: #757575;
   --dark-background-color: #2f303a;
   --white-color: #fff;
+  --light-background-color: #f5f4fa;
   --dark-black-color: #000;
-  --transparent-grey-color: color: rgba(255, 255, 255, 0.6) 
+  --transparent-grey-color: rgba(255, 255, 255, 0.6);
+  --top-bar-line: #ececec;
+  --portfolio-bottom-border: #eeeeee;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -50,33 +53,25 @@ body {
   text-decoration: none;
 }
 header .logo {
-  color: #000;
-}
-header .logo span {
   color: var(--blue-color);
 }
 footer .logo {
   color: var(--blue-color);
 }
-footer .logo span {
-  color: #fff;
-}
-
 .bottom-adress {
   text-decoration: none;
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--white-color);
-  
 }
 .bottom-mail,
-.bottom-number{
+.bottom-number {
   text-decoration: none;
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
-color: var(--transparent-grey-color);
+  color: var(--transparent-grey-color);
 }
 .order-button {
   font-weight: 700;
@@ -86,7 +81,7 @@ color: var(--transparent-grey-color);
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--blue-color);
-  border-radius: 4px; 
+  border-radius: 4px;
   padding: 10px 0;
   width: 200px;
 }
@@ -138,7 +133,6 @@ color: var(--transparent-grey-color);
 .team .field-name {
   text-align: center;
   line-height: 1.18;
- 
 }
 .portfolio .field-name {
   text-align: start;
@@ -149,6 +143,18 @@ color: var(--transparent-grey-color);
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  width: 121px;
+  background: var(--light-background-color);
+  border-radius: 4px;
+  border: 0;
+  padding: 6px 0;
+  color: var(--black-color);
+}
+.filter-button-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
 }
 .filter-button:hover,
 .filter-button:focus {
