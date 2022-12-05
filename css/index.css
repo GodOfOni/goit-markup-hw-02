@@ -166,10 +166,13 @@ color: var(--transparent-grey-color);
   background-color: var(--dark-background-color);
 }
 .main-header-box {
-  background-color: var(--dark-background-color);
+  color: #fff;
+  background-color: #2f303a;
   height: 600px;
-  width: 1600px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36em;
   text-align: center;
-  padding-top: 250px;
-  border: 100px;
+  text-transform: uppercase;
+  padding: 275px 0px 0px 0px;
 }
