@@ -120,6 +120,7 @@ footer .logo span {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 94px;
 }
 .business-description-paragraph {
   line-height: 1.71;
@@ -152,8 +153,10 @@ footer .logo span {
   margin-top: 4px;
 }
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.63;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   width: 121px;
@@ -188,6 +191,7 @@ footer .logo span {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-bottom: 94px;
 }
 .top-bar {
   border-bottom: 1px solid var(--top-bar-line);
@@ -201,6 +205,8 @@ footer .logo span {
 .navigation {
   margin-left: 93px;
   margin-right: 371px;
+  font-family: "roboto" sans-serif;
+  font-weight: 500;
 }
 .navigation-links {
   display: flex;
@@ -218,12 +224,15 @@ footer .logo span {
   align-items: center;
   gap: 30px;
 }
+.container {
+  padding: 0 15px;
+}
 
 .business-description-header {
   margin-bottom: 10px;
 }
 .section {
-  padding: 94px 0;
+  padding-bottom: 94px;
 }
 .business-description-list,
 .business-activities-list,
@@ -234,6 +243,14 @@ footer .logo span {
   list-style: none;
   gap: 30px;
   justify-content: center;
+}
+.business-activities-list,
+.business-team {
+  object-fit: cover;
+}
+
+.filter-button-list {
+  padding-top: 94px;
 }
 .business-activities .second-header {
   padding-top: 94px;
