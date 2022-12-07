@@ -55,12 +55,15 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  padding-left: 94px;
 }
+
 header .logo {
   color: var(--blue-color);
 }
 footer .logo {
   color: var(--blue-color);
+  padding-left: 0px;
 }
 
 .bottom-adress {
@@ -226,6 +229,7 @@ footer .logo {
   gap: 30px;
 }
 .container {
+  width: auto;
   padding: 0 15px;
 }
 
@@ -279,7 +283,6 @@ footer .logo {
   margin-bottom: 20px;
 }
 footer .logo {
-  padding-left: 215;
   padding-top: 60;
   padding-right: 1240;
   padding-bottom: 161;
@@ -288,8 +291,6 @@ footer .logo {
 .bottom-adress-list {
   list-style: none;
   margin-top: 20px;
-  padding-right: 1240;
-  padding-left: 215;
 }
 .bottom-adress-list {
   margin-top: 9px;
