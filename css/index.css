@@ -31,6 +31,7 @@ body {
 .top-bar .navigation a {
   color: var(--black-color);
 }
+
 .contact a {
   color: var(--gray-color);
   text-decoration: none;
@@ -60,9 +61,6 @@ header .logo {
 }
 footer .logo {
   color: var(--blue-color);
-}
-footer .logo span {
-  color: #fff;
 }
 
 .bottom-adress {
@@ -121,6 +119,10 @@ footer .logo span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 94px;
+}
+.business-team-section {
+  padding-top: 188px;
+  padding-bottom: 94px;
 }
 .business-description-paragraph {
   line-height: 1.71;
@@ -183,15 +185,14 @@ footer .logo span {
 }
 .bottom {
   background-color: var(--dark-background-color);
+  padding-left: 215px;
 }
 .main-header-box {
   background-color: var(--dark-background-color);
 }
 
 .container {
-  width: 1200px;
   margin: 0 auto;
-  padding-bottom: 94px;
 }
 .top-bar {
   border-bottom: 1px solid var(--top-bar-line);
@@ -263,6 +264,7 @@ footer .logo span {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  object-fit: cover;
 }
 .employee-profile figcaption {
   padding: 30px 0;
@@ -276,11 +278,20 @@ footer .logo span {
 .bottom .logo {
   margin-bottom: 20px;
 }
+footer .logo {
+  padding-left: 215;
+  padding-top: 60;
+  padding-right: 1240;
+  padding-bottom: 161;
+}
+
 .bottom-adress-list {
   list-style: none;
   margin-top: 20px;
+  padding-right: 1240;
+  padding-left: 215;
 }
-.bottom-adress-list li + li {
+.bottom-adress-list {
   margin-top: 9px;
 }
 .filter-button-list {
@@ -288,6 +299,7 @@ footer .logo span {
 }
 .portfolio-list {
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .portfolio-list figcaption {
